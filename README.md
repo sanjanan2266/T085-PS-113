@@ -1,4 +1,5 @@
 # PS-113 · School Fee Management Engine
+
 **K-12 School Administration Fee Computation, Instalments, Concessions, Late Fees, and Reconciliations**  
 *Week 2 – Core Flows Implementation*
 
@@ -164,3 +165,12 @@ In your viva examination, be prepared to walk through:
 - **Concession Stacking & Cap:** Category (highest) $\rightarrow$ Sibling rank (DOB) $\rightarrow$ Additive sum $\rightarrow$ Min(sum, 60%) $\rightarrow$ 3% Annual discount on post-concession tuition.
 - **Payment Application Waterfall:** Late fees first $\rightarrow$ Oldest instalment tuition $\rightarrow$ Other heads (`dev`, `lab`, `act`, `exam`, `adm`) $\rightarrow$ Add-ons (`transport`, `hostel`) $\rightarrow$ Next instalment $\rightarrow$ Advance credit.
 - **Cheque Bounce & Defaulter Impact:** Reversal of allocations, Rs 500 penalty, retroactive recalculation of late fees, and overdue $> 60$ days flagging exam hall tickets as `WITHHELD`.
+
+
+---
+
+## Week 3 – Full Business Rules & Testing
+
+Week 3 implementation, business rule validation, edge-case tests, and viva preparation.
+
+[View Week 3 Submission](https://github.com/sanjanan2266/T085-PS-113/tree/week3-submission)
