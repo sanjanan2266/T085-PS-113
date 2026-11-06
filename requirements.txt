@@ -1,0 +1,4 @@
+# PS-113 School Fee Management Engine
+# Zero external runtime dependencies required (built using standard library Python 3.10+)
+# Optional development/testing tool:
+# pytest>=7.0.0
