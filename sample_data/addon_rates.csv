@@ -1,0 +1,6 @@
+addon_type,identifier,monthly_rate,deposit_months
+TRANSPORT,Zone A,1800.00,0
+TRANSPORT,Zone B,2400.00,0
+TRANSPORT,Zone C,3000.00,0
+HOSTEL,shared,9000.00,1
+HOSTEL,single,12000.00,1
