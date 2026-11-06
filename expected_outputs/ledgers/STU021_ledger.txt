@@ -1,0 +1,47 @@
+========================================================================================
+                           STUDENT ACCOUNT STATEMENT / LEDGER                           
+Student: Student_21 (STU021) | Grade: 9-A
+Campus: CAMPUS-1 | Hall Ticket: WITHHELD | TC Status: NOT_REQUESTED
+========================================================================================
+Date        Txn ID            Description                       Debit (Rs) Credit (Rs)
+----------------------------------------------------------------------------------------
+2026-04-10  INIT-STU021-INST1-activityFee charge: Activity (Instalme..     1840.00        0.00
+2026-04-10  INIT-STU021-INST1-developmentFee charge: Development (Insta..     6400.00        0.00
+2026-04-10  INIT-STU021-INST1-examFee charge: Exam (Instalment 1)      1440.00        0.00
+2026-04-10  INIT-STU021-INST1-labFee charge: Lab (Instalment 1)       3120.00        0.00
+2026-04-10  INIT-STU021-INST1-tuitionFee charge: Tuition (Instalmen..    10800.00        0.00
+2026-04-13  PMT021-TXN-1      Payment for Tuition (Instalmen..        0.00    10800.00
+2026-04-13  PMT021-TXN-2      Payment for Development (Insta..        0.00     5200.00
+2026-05-06  PMT081-TXN-1      Payment for Late Fee (Instalme..        0.00     1300.00
+2026-05-06  PMT081-TXN-2      Payment for Development (Insta..        0.00     1200.00
+2026-05-06  PMT081-TXN-3      Payment for Lab (Instalment 1)          0.00     3120.00
+2026-05-06  PMT081-TXN-4      Payment for Activity (Instalme..        0.00     1840.00
+2026-05-06  PMT081-TXN-5      Payment for Exam (Instalment 1)         0.00     1040.00
+2026-08-10  INIT-STU021-INST2-activityFee charge: Activity (Instalme..     1380.00        0.00
+2026-08-10  INIT-STU021-INST2-developmentFee charge: Development (Insta..     4800.00        0.00
+2026-08-10  INIT-STU021-INST2-examFee charge: Exam (Instalment 2)      1080.00        0.00
+2026-08-10  INIT-STU021-INST2-labFee charge: Lab (Instalment 2)       2340.00        0.00
+2026-08-10  INIT-STU021-INST2-tuitionFee charge: Tuition (Instalmen..     8100.00        0.00
+2026-08-14  PMT141-TXN-1      Payment for Late Fee (Instalme..        0.00      200.00
+2026-08-14  PMT141-TXN-2      Payment for Exam (Instalment 1)         0.00      400.00
+2026-08-14  PMT141-TXN-3      Payment for Add-on Transport (..        0.00    12000.00
+2026-08-14  PMT141-TXN-4      Payment for Late Fee (Instalme..        0.00      200.00
+2026-08-14  PMT141-TXN-5      Payment for Tuition (Instalmen..        0.00     2200.00
+2026-10-11  PMT201-TXN-1      Payment for Late Fee (Instalme..        0.00     1300.00
+2026-10-11  PMT201-TXN-2      Payment for Tuition (Instalmen..        0.00     4500.00
+2026-12-10  INIT-STU021-INST3-activityFee charge: Activity (Instalme..     1380.00        0.00
+2026-12-10  INIT-STU021-INST3-developmentFee charge: Development (Insta..     4800.00        0.00
+2026-12-10  INIT-STU021-INST3-examFee charge: Exam (Instalment 3)      1080.00        0.00
+2026-12-10  INIT-STU021-INST3-labFee charge: Lab (Instalment 3)       2340.00        0.00
+2026-12-10  INIT-STU021-INST3-tuitionFee charge: Tuition (Instalmen..     8100.00        0.00
+2026-12-11  PMT261-TXN-1      Payment for Tuition (Instalmen..        0.00     1400.00
+2026-12-11  PMT261-TXN-2      Payment for Development (Insta..        0.00     4800.00
+2026-12-11  PMT261-TXN-3      Payment for Lab (Instalment 2)          0.00     2340.00
+2026-12-11  PMT261-TXN-4      Payment for Activity (Instalme..        0.00     1380.00
+2026-12-11  PMT261-TXN-5      Payment for Exam (Instalment 2)         0.00       80.00
+2027-01-05  PMT321-TXN-1      Payment for Exam (Instalment 2)         0.00     1000.00
+2027-01-05  PMT321-TXN-2      Payment for Add-on Transport (..        0.00     4000.00
+----------------------------------------------------------------------------------------
+TOTALS                                                            59000.00    60300.00
+Current Closing Balance : Rs     -1300.00
+========================================================================================

@@ -1,0 +1,29 @@
+========================================================================================
+                           STUDENT ACCOUNT STATEMENT / LEDGER                           
+Student: Student_27 (STU027) | Grade: 3-A
+Campus: CAMPUS-1 | Hall Ticket: WITHHELD | TC Status: NOT_REQUESTED
+========================================================================================
+Date        Txn ID            Description                       Debit (Rs) Credit (Rs)
+----------------------------------------------------------------------------------------
+2026-04-10  INIT-STU027-INST1-activityFee charge: Activity (Instalme..     3400.00        0.00
+2026-04-10  INIT-STU027-INST1-developmentFee charge: Development (Insta..    13000.00        0.00
+2026-04-10  INIT-STU027-INST1-examFee charge: Exam (Instalment 1)      2400.00        0.00
+2026-04-10  INIT-STU027-INST1-labFee charge: Lab (Instalment 1)       1500.00        0.00
+2026-04-10  INIT-STU027-INST1-tuitionFee charge: Tuition (Instalmen..    26190.00        0.00
+2026-04-20  PMT027-TXN-1      Payment for Late Fee (Instalme..        0.00      500.00
+2026-04-20  PMT027-TXN-2      Payment for Tuition (Instalmen..        0.00    21500.00
+2026-05-12  PMT087-TXN-1      Payment for Late Fee (Instalme..        0.00     1000.00
+2026-05-12  PMT087-TXN-2      Payment for Tuition (Instalmen..        0.00     4690.00
+2026-05-12  PMT087-TXN-3      Payment for Development (Insta..        0.00     1810.00
+2026-08-20  PMT147-TXN-1      Payment for Development (Insta..        0.00    11190.00
+2026-08-20  PMT147-TXN-2      Payment for Lab (Instalment 1)          0.00     1500.00
+2026-08-20  PMT147-TXN-3      Payment for Activity (Instalme..        0.00     2310.00
+2026-10-17  PMT207-TXN-1      Payment for Activity (Instalme..        0.00     1090.00
+2026-10-17  PMT207-TXN-2      Payment for Exam (Instalment 1)         0.00     2400.00
+2026-10-17  PMT207-TXN-3      Payment for Add-on Transport (..        0.00     3110.00
+2026-12-17  PMT267-TXN-1      Payment for Add-on Transport (..        0.00    16000.00
+2027-01-11  PMT327-TXN-1      Payment for Add-on Transport (..        0.00     5000.00
+----------------------------------------------------------------------------------------
+TOTALS                                                            46490.00    72100.00
+Current Closing Balance : Rs    -25610.00
+========================================================================================

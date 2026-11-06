@@ -1,0 +1,29 @@
+========================================================================================
+                           STUDENT ACCOUNT STATEMENT / LEDGER                           
+Student: Alka Verma (STU017) | Grade: 5-A
+Campus: CAMPUS-1 | Hall Ticket: CLEARED | TC Status: NOT_REQUESTED
+========================================================================================
+Date        Txn ID            Description                       Debit (Rs) Credit (Rs)
+----------------------------------------------------------------------------------------
+2026-04-09  PMT017-TXN-1      Payment for Tuition (Instalmen..        0.00    22000.00
+2026-04-10  INIT-STU017-INST1-activityFee charge: Activity (Instalme..     3800.00        0.00
+2026-04-10  INIT-STU017-INST1-developmentFee charge: Development (Insta..    14000.00        0.00
+2026-04-10  INIT-STU017-INST1-examFee charge: Exam (Instalment 1)      2800.00        0.00
+2026-04-10  INIT-STU017-INST1-labFee charge: Lab (Instalment 1)       1500.00        0.00
+2026-04-10  INIT-STU017-INST1-tuitionFee charge: Tuition (Instalmen..    26481.00        0.00
+2026-05-22  PMT077-TXN-1      Payment for Late Fee (Instalme..        0.00     1500.00
+2026-05-22  PMT077-TXN-2      Payment for Tuition (Instalmen..        0.00     4481.00
+2026-05-22  PMT077-TXN-3      Payment for Development (Insta..        0.00      519.00
+2026-08-10  PMT137-TXN-1      Payment for Development (Insta..        0.00    13481.00
+2026-08-10  PMT137-TXN-2      Payment for Lab (Instalment 1)          0.00     1500.00
+2026-08-10  PMT137-TXN-3      Payment for Activity (Instalme..        0.00     2019.00
+2026-10-07  PMT197-TXN-1      Payment for Activity (Instalme..        0.00     1781.00
+2026-10-07  PMT197-TXN-2      Payment for Exam (Instalment 1)         0.00     2800.00
+2026-10-07  PMT197-TXN-3      Overpayment credited as advanc..        0.00     2019.00
+2026-12-07  PMT257-TXN-1      Overpayment credited as advanc..        0.00    13000.00
+2027-01-21  PMT317-TXN-1      Overpayment credited as advanc..        0.00     6000.00
+----------------------------------------------------------------------------------------
+TOTALS                                                            48581.00    71100.00
+Current Closing Balance : Rs    -22519.00
+Unadjusted Advance Credit: Rs     21019.00
+========================================================================================

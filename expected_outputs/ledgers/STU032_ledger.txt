@@ -1,0 +1,27 @@
+========================================================================================
+                           STUDENT ACCOUNT STATEMENT / LEDGER                           
+Student: Student_32 (STU032) | Grade: 8-B
+Campus: CAMPUS-2 | Hall Ticket: WITHHELD | TC Status: NOT_REQUESTED
+========================================================================================
+Date        Txn ID            Description                       Debit (Rs) Credit (Rs)
+----------------------------------------------------------------------------------------
+2026-04-10  INIT-STU032-INST1-activityFee charge: Activity (Instalme..     4400.00        0.00
+2026-04-10  INIT-STU032-INST1-developmentFee charge: Development (Insta..    15500.00        0.00
+2026-04-10  INIT-STU032-INST1-examFee charge: Exam (Instalment 1)      3400.00        0.00
+2026-04-10  INIT-STU032-INST1-labFee charge: Lab (Instalment 1)       7200.00        0.00
+2026-04-10  INIT-STU032-INST1-tuitionFee charge: Tuition (Instalmen..    37102.50        0.00
+2026-04-20  PMT032-TXN-1      Payment for Late Fee (Instalme..        0.00      500.00
+2026-04-20  PMT032-TXN-2      Payment for Tuition (Instalmen..        0.00    16500.00
+2026-05-17  PMT092-TXN-1      Payment for Late Fee (Instalme..        0.00     1000.00
+2026-05-17  PMT092-TXN-2      Payment for Tuition (Instalmen..        0.00     5000.00
+2026-08-10  PMT152-TXN-1      Payment for Tuition (Instalmen..        0.00    14000.00
+2026-10-07  PMT212-TXN-1      Payment for Tuition (Instalmen..        0.00     1602.50
+2026-10-07  PMT212-TXN-2      Payment for Development (Insta..        0.00     4997.50
+2026-12-07  PMT272-TXN-1      Payment for Development (Insta..        0.00    10502.50
+2026-12-07  PMT272-TXN-2      Payment for Lab (Instalment 1)          0.00     3497.50
+2027-01-16  PMT332-TXN-1      Payment for Lab (Instalment 1)          0.00     3702.50
+2027-01-16  PMT332-TXN-2      Payment for Activity (Instalme..        0.00      797.50
+----------------------------------------------------------------------------------------
+TOTALS                                                            67602.50    62100.00
+Current Closing Balance : Rs      5502.50
+========================================================================================

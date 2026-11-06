@@ -1,0 +1,42 @@
+========================================================================================
+                           STUDENT ACCOUNT STATEMENT / LEDGER                           
+Student: Isha Patel (STU010) | Grade: 10-B
+Campus: CAMPUS-1 | Hall Ticket: WITHHELD | TC Status: NOT_REQUESTED
+========================================================================================
+Date        Txn ID            Description                       Debit (Rs) Credit (Rs)
+----------------------------------------------------------------------------------------
+2026-04-10  INIT-STU010-INST1-activityFee charge: Activity (Instalme..     1920.00        0.00
+2026-04-10  INIT-STU010-INST1-developmentFee charge: Development (Insta..     6600.00        0.00
+2026-04-10  INIT-STU010-INST1-examFee charge: Exam (Instalment 1)      1520.00        0.00
+2026-04-10  INIT-STU010-INST1-labFee charge: Lab (Instalment 1)       3360.00        0.00
+2026-04-10  INIT-STU010-INST1-tuitionFee charge: Tuition (Instalmen..    20520.00        0.00
+2026-04-10  PMT010-TXN-1      Payment for Tuition (Instalmen..        0.00    15000.00
+2026-05-15  PMT070-TXN-1      Payment for Late Fee (Instalme..        0.00     1500.00
+2026-05-15  PMT070-TXN-2      Payment for Tuition (Instalmen..        0.00     5500.00
+2026-08-10  INIT-STU010-INST2-activityFee charge: Activity (Instalme..     1440.00        0.00
+2026-08-10  INIT-STU010-INST2-developmentFee charge: Development (Insta..     4950.00        0.00
+2026-08-10  INIT-STU010-INST2-examFee charge: Exam (Instalment 2)      1140.00        0.00
+2026-08-10  INIT-STU010-INST2-labFee charge: Lab (Instalment 2)       2520.00        0.00
+2026-08-10  INIT-STU010-INST2-tuitionFee charge: Tuition (Instalmen..    15390.00        0.00
+2026-08-18  PMT130-TXN-1      Payment for Tuition (Instalmen..        0.00       20.00
+2026-08-18  PMT130-TXN-2      Payment for Development (Insta..        0.00     6600.00
+2026-08-18  PMT130-TXN-3      Payment for Lab (Instalment 1)          0.00     3360.00
+2026-08-18  PMT130-TXN-4      Payment for Activity (Instalme..        0.00     1920.00
+2026-08-18  PMT130-TXN-5      Payment for Exam (Instalment 1)         0.00     1520.00
+2026-08-18  PMT130-TXN-6      Payment for Add-on Transport (..        0.00     2580.00
+2026-10-15  PMT190-TXN-1      Payment for Add-on Transport (..        0.00     5000.00
+2026-12-10  INIT-STU010-INST3-activityFee charge: Activity (Instalme..     1440.00        0.00
+2026-12-10  INIT-STU010-INST3-developmentFee charge: Development (Insta..     4950.00        0.00
+2026-12-10  INIT-STU010-INST3-examFee charge: Exam (Instalment 3)      1140.00        0.00
+2026-12-10  INIT-STU010-INST3-labFee charge: Lab (Instalment 3)       2520.00        0.00
+2026-12-10  INIT-STU010-INST3-tuitionFee charge: Tuition (Instalmen..    15390.00        0.00
+2026-12-15  PMT250-TXN-1      Payment for Add-on Transport (..        0.00     2020.00
+2026-12-15  PMT250-TXN-2      Payment for Late Fee (Instalme..        0.00     1500.00
+2026-12-15  PMT250-TXN-3      Payment for Tuition (Instalmen..        0.00     9480.00
+2027-01-14  PMT310-TXN-1      Payment for Tuition (Instalmen..        0.00     5500.00
+2027-01-25  BOUNCE-CHG-PMT310 Cheque bounce penalty of Rs 50..      500.00        0.00
+2027-01-25  REV-PMT310-2-tuitionReversal of payment on tuition..     5500.00        0.00
+----------------------------------------------------------------------------------------
+TOTALS                                                            90800.00    61500.00
+Current Closing Balance : Rs     29300.00
+========================================================================================

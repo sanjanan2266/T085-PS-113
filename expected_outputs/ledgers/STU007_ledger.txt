@@ -1,0 +1,28 @@
+========================================================================================
+                           STUDENT ACCOUNT STATEMENT / LEDGER                           
+Student: Kavya Singh (STU007) | Grade: 7-A
+Campus: CAMPUS-1 | Hall Ticket: WITHHELD | TC Status: NOT_REQUESTED
+========================================================================================
+Date        Txn ID            Description                       Debit (Rs) Credit (Rs)
+----------------------------------------------------------------------------------------
+2026-04-10  INIT-STU007-INST1-activityFee charge: Activity (Instalme..     4200.00        0.00
+2026-04-10  INIT-STU007-INST1-developmentFee charge: Development (Insta..    15000.00        0.00
+2026-04-10  INIT-STU007-INST1-examFee charge: Exam (Instalment 1)      3200.00        0.00
+2026-04-10  INIT-STU007-INST1-labFee charge: Lab (Instalment 1)       6600.00        0.00
+2026-04-10  INIT-STU007-INST1-tuitionFee charge: Tuition (Instalmen..    30264.00        0.00
+2026-04-15  PMT007-TXN-1      Payment for Tuition (Instalmen..        0.00    22000.00
+2026-05-12  PMT067-TXN-1      Payment for Late Fee (Instalme..        0.00     1500.00
+2026-05-12  PMT067-TXN-2      Payment for Tuition (Instalmen..        0.00     8000.00
+2026-08-15  PMT127-TXN-1      Payment for Tuition (Instalmen..        0.00      264.00
+2026-08-15  PMT127-TXN-2      Payment for Development (Insta..        0.00    12736.00
+2026-10-12  PMT187-TXN-1      Payment for Development (Insta..        0.00     2264.00
+2026-10-12  PMT187-TXN-2      Payment for Lab (Instalment 1)          0.00     4336.00
+2026-12-12  PMT247-TXN-1      Payment for Lab (Instalment 1)          0.00     2264.00
+2026-12-12  PMT247-TXN-2      Payment for Activity (Instalme..        0.00     4200.00
+2026-12-12  PMT247-TXN-3      Payment for Exam (Instalment 1)         0.00     3200.00
+2026-12-12  PMT247-TXN-4      Payment for Add-on Transport (..        0.00      336.00
+2027-01-11  PMT307-TXN-1      Payment for Add-on Transport (..        0.00     4000.00
+----------------------------------------------------------------------------------------
+TOTALS                                                            59264.00    65100.00
+Current Closing Balance : Rs     -5836.00
+========================================================================================

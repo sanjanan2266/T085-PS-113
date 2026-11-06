@@ -1,0 +1,101 @@
+========================================================================================
+                           STUDENT ACCOUNT STATEMENT / LEDGER                           
+Student: Student_23 (STU023) | Grade: 11-A
+Campus: CAMPUS-1 | Hall Ticket: CLEARED | TC Status: NOT_REQUESTED
+========================================================================================
+Date        Txn ID            Description                       Debit (Rs) Credit (Rs)
+----------------------------------------------------------------------------------------
+2026-04-10  INIT-STU023-INST1-activityFee charge: Activity (Instalme..      500.00        0.00
+2026-04-10  INIT-STU023-INST1-developmentFee charge: Development (Insta..     1700.00        0.00
+2026-04-10  INIT-STU023-INST1-examFee charge: Exam (Instalment 1)       400.00        0.00
+2026-04-10  INIT-STU023-INST1-labFee charge: Lab (Instalment 1)        900.00        0.00
+2026-04-10  INIT-STU023-INST1-tuitionFee charge: Tuition (Instalmen..     6000.00        0.00
+2026-04-15  PMT023-TXN-1      Payment for Tuition (Instalmen..        0.00     6000.00
+2026-04-15  PMT023-TXN-2      Payment for Development (Insta..        0.00     1700.00
+2026-04-15  PMT023-TXN-3      Payment for Lab (Instalment 1)          0.00      900.00
+2026-04-15  PMT023-TXN-4      Payment for Activity (Instalme..        0.00      500.00
+2026-04-15  PMT023-TXN-5      Payment for Exam (Instalment 1)         0.00      400.00
+2026-04-15  PMT023-TXN-6      Payment for Add-on Transport (..        0.00     2400.00
+2026-04-15  PMT023-TXN-7      Payment for Tuition (Instalmen..        0.00     6000.00
+2026-04-15  PMT023-TXN-8      Payment for Development (Insta..        0.00      100.00
+2026-05-08  PMT083-TXN-1      Payment for Development (Insta..        0.00     1600.00
+2026-05-08  PMT083-TXN-2      Payment for Lab (Instalment 2)          0.00      900.00
+2026-05-08  PMT083-TXN-3      Payment for Activity (Instalme..        0.00      500.00
+2026-05-08  PMT083-TXN-4      Payment for Exam (Instalment 2)         0.00      400.00
+2026-05-08  PMT083-TXN-5      Payment for Add-on Transport (..        0.00     2400.00
+2026-05-08  PMT083-TXN-6      Payment for Tuition (Instalmen..        0.00     3700.00
+2026-05-10  INIT-STU023-INST2-activityFee charge: Activity (Instalme..      500.00        0.00
+2026-05-10  INIT-STU023-INST2-developmentFee charge: Development (Insta..     1700.00        0.00
+2026-05-10  INIT-STU023-INST2-examFee charge: Exam (Instalment 2)       400.00        0.00
+2026-05-10  INIT-STU023-INST2-labFee charge: Lab (Instalment 2)        900.00        0.00
+2026-05-10  INIT-STU023-INST2-tuitionFee charge: Tuition (Instalmen..     6000.00        0.00
+2026-06-10  INIT-STU023-INST3-activityFee charge: Activity (Instalme..      500.00        0.00
+2026-06-10  INIT-STU023-INST3-developmentFee charge: Development (Insta..     1700.00        0.00
+2026-06-10  INIT-STU023-INST3-examFee charge: Exam (Instalment 3)       400.00        0.00
+2026-06-10  INIT-STU023-INST3-labFee charge: Lab (Instalment 3)        900.00        0.00
+2026-06-10  INIT-STU023-INST3-tuitionFee charge: Tuition (Instalmen..     6000.00        0.00
+2026-07-10  INIT-STU023-INST4-activityFee charge: Activity (Instalme..      500.00        0.00
+2026-07-10  INIT-STU023-INST4-developmentFee charge: Development (Insta..     1700.00        0.00
+2026-07-10  INIT-STU023-INST4-examFee charge: Exam (Instalment 4)       400.00        0.00
+2026-07-10  INIT-STU023-INST4-labFee charge: Lab (Instalment 4)        900.00        0.00
+2026-07-10  INIT-STU023-INST4-tuitionFee charge: Tuition (Instalmen..     6000.00        0.00
+2026-08-10  INIT-STU023-INST5-activityFee charge: Activity (Instalme..      500.00        0.00
+2026-08-10  INIT-STU023-INST5-developmentFee charge: Development (Insta..     1700.00        0.00
+2026-08-10  INIT-STU023-INST5-examFee charge: Exam (Instalment 5)       400.00        0.00
+2026-08-10  INIT-STU023-INST5-labFee charge: Lab (Instalment 5)        900.00        0.00
+2026-08-10  INIT-STU023-INST5-tuitionFee charge: Tuition (Instalmen..     6000.00        0.00
+2026-08-16  PMT143-TXN-1      Payment for Late Fee (Instalme..        0.00     1500.00
+2026-08-16  PMT143-TXN-2      Payment for Tuition (Instalmen..        0.00     2300.00
+2026-08-16  PMT143-TXN-3      Payment for Development (Insta..        0.00     1700.00
+2026-08-16  PMT143-TXN-4      Payment for Lab (Instalment 3)          0.00      900.00
+2026-08-16  PMT143-TXN-5      Payment for Activity (Instalme..        0.00      500.00
+2026-08-16  PMT143-TXN-6      Payment for Exam (Instalment 3)         0.00      400.00
+2026-08-16  PMT143-TXN-7      Payment for Add-on Transport (..        0.00     2400.00
+2026-08-16  PMT143-TXN-8      Payment for Late Fee (Instalme..        0.00     1500.00
+2026-08-16  PMT143-TXN-9      Payment for Tuition (Instalmen..        0.00     5800.00
+2026-09-10  INIT-STU023-INST6-activityFee charge: Activity (Instalme..      500.00        0.00
+2026-09-10  INIT-STU023-INST6-developmentFee charge: Development (Insta..     1700.00        0.00
+2026-09-10  INIT-STU023-INST6-examFee charge: Exam (Instalment 6)       400.00        0.00
+2026-09-10  INIT-STU023-INST6-labFee charge: Lab (Instalment 6)        900.00        0.00
+2026-09-10  INIT-STU023-INST6-tuitionFee charge: Tuition (Instalmen..     6000.00        0.00
+2026-10-10  INIT-STU023-INST7-activityFee charge: Activity (Instalme..      500.00        0.00
+2026-10-10  INIT-STU023-INST7-developmentFee charge: Development (Insta..     1700.00        0.00
+2026-10-10  INIT-STU023-INST7-examFee charge: Exam (Instalment 7)       400.00        0.00
+2026-10-10  INIT-STU023-INST7-labFee charge: Lab (Instalment 7)        900.00        0.00
+2026-10-10  INIT-STU023-INST7-tuitionFee charge: Tuition (Instalmen..     6000.00        0.00
+2026-10-13  PMT203-TXN-1      Payment for Tuition (Instalmen..        0.00      200.00
+2026-10-13  PMT203-TXN-2      Payment for Development (Insta..        0.00     1700.00
+2026-10-13  PMT203-TXN-3      Payment for Lab (Instalment 4)          0.00      900.00
+2026-10-13  PMT203-TXN-4      Payment for Activity (Instalme..        0.00      500.00
+2026-10-13  PMT203-TXN-5      Payment for Exam (Instalment 4)         0.00      400.00
+2026-10-13  PMT203-TXN-6      Payment for Add-on Transport (..        0.00     2400.00
+2026-10-13  PMT203-TXN-7      Payment for Late Fee (Instalme..        0.00     1300.00
+2026-11-10  INIT-STU023-INST8-activityFee charge: Activity (Instalme..      500.00        0.00
+2026-11-10  INIT-STU023-INST8-developmentFee charge: Development (Insta..     1700.00        0.00
+2026-11-10  INIT-STU023-INST8-examFee charge: Exam (Instalment 8)       400.00        0.00
+2026-11-10  INIT-STU023-INST8-labFee charge: Lab (Instalment 8)        900.00        0.00
+2026-11-10  INIT-STU023-INST8-tuitionFee charge: Tuition (Instalmen..     6000.00        0.00
+2026-12-10  INIT-STU023-INST9-activityFee charge: Activity (Instalme..      500.00        0.00
+2026-12-10  INIT-STU023-INST9-developmentFee charge: Development (Insta..     1700.00        0.00
+2026-12-10  INIT-STU023-INST9-examFee charge: Exam (Instalment 9)       400.00        0.00
+2026-12-10  INIT-STU023-INST9-labFee charge: Lab (Instalment 9)        900.00        0.00
+2026-12-10  INIT-STU023-INST9-tuitionFee charge: Tuition (Instalmen..     6000.00        0.00
+2026-12-13  PMT263-TXN-1      Payment for Late Fee (Instalme..        0.00      200.00
+2026-12-13  PMT263-TXN-2      Payment for Tuition (Instalmen..        0.00     6000.00
+2026-12-13  PMT263-TXN-3      Payment for Development (Insta..        0.00     1700.00
+2026-12-13  PMT263-TXN-4      Payment for Lab (Instalment 5)          0.00      900.00
+2026-12-13  PMT263-TXN-5      Payment for Activity (Instalme..        0.00      500.00
+2026-12-13  PMT263-TXN-6      Payment for Exam (Instalment 5)         0.00      400.00
+2026-12-13  PMT263-TXN-7      Payment for Add-on Transport (..        0.00     2300.00
+2027-01-07  PMT323-TXN-1      Payment for Add-on Transport (..        0.00      100.00
+2027-01-07  PMT323-TXN-2      Payment for Late Fee (Instalme..        0.00     1500.00
+2027-01-07  PMT323-TXN-3      Payment for Tuition (Instalmen..        0.00     4400.00
+2027-01-10  INIT-STU023-INST10-activityFee charge: Activity (Instalme..      500.00        0.00
+2027-01-10  INIT-STU023-INST10-developmentFee charge: Development (Insta..     1700.00        0.00
+2027-01-10  INIT-STU023-INST10-examFee charge: Exam (Instalment 10)      400.00        0.00
+2027-01-10  INIT-STU023-INST10-labFee charge: Lab (Instalment 10)       900.00        0.00
+2027-01-10  INIT-STU023-INST10-tuitionFee charge: Tuition (Instalmen..     6000.00        0.00
+----------------------------------------------------------------------------------------
+TOTALS                                                            95000.00    69900.00
+Current Closing Balance : Rs     25100.00
+========================================================================================

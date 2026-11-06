@@ -133,6 +133,36 @@ class TestPaymentWaterfall(unittest.TestCase):
         self.assertEqual(record.advance_credit_generated, Decimal("4500.00"))
         self.assertEqual(self.student.advance_credit, Decimal("4500.00"))
 
+    def test_apply_advance_credit_reduces_existing_balance_correctly(self):
+        self.student.advance_credit = Decimal("1000.00")
 
+        self.inst1.heads[FeeHead.TUITION].net_amount = Decimal("400.00")
+        self.inst1.heads[FeeHead.DEVELOPMENT].net_amount = Decimal("0.00")
+        self.inst1.heads[FeeHead.TRANSPORT].net_amount = Decimal("0.00")
+        self.inst2.heads[FeeHead.TUITION].net_amount = Decimal("0.00")
+        self.inst2.heads[FeeHead.DEVELOPMENT].net_amount = Decimal("0.00")
+
+        PaymentWaterfallProcessor.apply_advance_credit(
+            student=self.student,
+            schedule=self.schedule,
+           as_of_date=date(2026, 4, 17),
+        )
+
+        self.assertEqual(self.student.advance_credit, Decimal("600.00"))
+
+    def test_apply_advance_credit_keeps_balance_when_no_dues(self):
+        self.student.advance_credit = Decimal("1000.00")
+
+        for instalment in self.schedule:
+            for head in instalment.heads.values():
+                head.net_amount = Decimal("0.00")
+
+        PaymentWaterfallProcessor.apply_advance_credit(
+            student=self.student,
+            schedule=self.schedule,
+            as_of_date=date(2026, 4, 20),
+        )
+
+        self.assertEqual(self.student.advance_credit, Decimal("1000.00"))
 if __name__ == "__main__":
     unittest.main()

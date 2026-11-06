@@ -1,0 +1,25 @@
+========================================================================================
+                           STUDENT ACCOUNT STATEMENT / LEDGER                           
+Student: Vidya Reddy (STU012) | Grade: 12-B
+Campus: CAMPUS-1 | Hall Ticket: WITHHELD | TC Status: NOT_REQUESTED
+========================================================================================
+Date        Txn ID            Description                       Debit (Rs) Credit (Rs)
+----------------------------------------------------------------------------------------
+2026-04-10  INIT-STU012-INST1-activityFee charge: Activity (Instalme..     5200.00        0.00
+2026-04-10  INIT-STU012-INST1-developmentFee charge: Development (Insta..    17500.00        0.00
+2026-04-10  INIT-STU012-INST1-examFee charge: Exam (Instalment 1)      4200.00        0.00
+2026-04-10  INIT-STU012-INST1-labFee charge: Lab (Instalment 1)       9600.00        0.00
+2026-04-10  INIT-STU012-INST1-tuitionFee charge: Tuition (Instalmen..    39721.50        0.00
+2026-04-12  PMT012-TXN-1      Payment for Tuition (Instalmen..        0.00    17000.00
+2026-05-17  PMT072-TXN-1      Payment for Late Fee (Instalme..        0.00     1500.00
+2026-05-17  PMT072-TXN-2      Payment for Tuition (Instalmen..        0.00     6500.00
+2026-08-20  PMT132-TXN-1      Payment for Tuition (Instalmen..        0.00    12000.00
+2026-10-17  PMT192-TXN-1      Payment for Tuition (Instalmen..        0.00     4221.50
+2026-10-17  PMT192-TXN-2      Payment for Development (Insta..        0.00     2378.50
+2026-12-17  PMT252-TXN-1      Payment for Development (Insta..        0.00    15000.00
+2027-01-16  PMT312-TXN-1      Payment for Development (Insta..        0.00      121.50
+2027-01-16  PMT312-TXN-2      Payment for Lab (Instalment 1)          0.00     6378.50
+----------------------------------------------------------------------------------------
+TOTALS                                                            76221.50    65100.00
+Current Closing Balance : Rs     11121.50
+========================================================================================

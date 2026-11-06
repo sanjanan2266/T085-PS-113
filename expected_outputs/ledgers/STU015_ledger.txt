@@ -1,0 +1,39 @@
+========================================================================================
+                           STUDENT ACCOUNT STATEMENT / LEDGER                           
+Student: Disha Kumar (STU015) | Grade: 3-A
+Campus: CAMPUS-1 | Hall Ticket: WITHHELD | TC Status: NOT_REQUESTED
+========================================================================================
+Date        Txn ID            Description                       Debit (Rs) Credit (Rs)
+----------------------------------------------------------------------------------------
+2026-04-10  INIT-STU015-INST1-activityFee charge: Activity (Instalme..     1360.00        0.00
+2026-04-10  INIT-STU015-INST1-developmentFee charge: Development (Insta..     5200.00        0.00
+2026-04-10  INIT-STU015-INST1-examFee charge: Exam (Instalment 1)       960.00        0.00
+2026-04-10  INIT-STU015-INST1-labFee charge: Lab (Instalment 1)        600.00        0.00
+2026-04-10  INIT-STU015-INST1-tuitionFee charge: Tuition (Instalmen..    12960.00        0.00
+2026-04-15  PMT015-TXN-1      Payment for Tuition (Instalmen..        0.00    12960.00
+2026-04-15  PMT015-TXN-2      Payment for Development (Insta..        0.00     5200.00
+2026-04-15  PMT015-TXN-3      Payment for Lab (Instalment 1)          0.00      600.00
+2026-04-15  PMT015-TXN-4      Payment for Activity (Instalme..        0.00     1240.00
+2026-05-20  PMT075-TXN-1      Payment for Late Fee (Instalme..        0.00     1500.00
+2026-05-20  PMT075-TXN-2      Payment for Activity (Instalme..        0.00      120.00
+2026-05-20  PMT075-TXN-3      Payment for Exam (Instalment 1)         0.00      960.00
+2026-05-20  PMT075-TXN-4      Payment for Add-on Hostel (Ins..        0.00     6920.00
+2026-08-08  PMT135-TXN-1      Payment for Add-on Hostel (Ins..        0.00    15000.00
+2026-08-10  INIT-STU015-INST2-activityFee charge: Activity (Instalme..     1020.00        0.00
+2026-08-10  INIT-STU015-INST2-developmentFee charge: Development (Insta..     3900.00        0.00
+2026-08-10  INIT-STU015-INST2-examFee charge: Exam (Instalment 2)       720.00        0.00
+2026-08-10  INIT-STU015-INST2-labFee charge: Lab (Instalment 2)        450.00        0.00
+2026-08-10  INIT-STU015-INST2-tuitionFee charge: Tuition (Instalmen..     9720.00        0.00
+2026-10-05  PMT195-TXN-1      Payment for Add-on Hostel (Ins..        0.00     5000.00
+2026-12-05  PMT255-TXN-1      Payment for Add-on Hostel (Ins..        0.00     9080.00
+2026-12-05  PMT255-TXN-2      Payment for Add-on Hostel_Depo..        0.00     1920.00
+2026-12-10  INIT-STU015-INST3-activityFee charge: Activity (Instalme..     1020.00        0.00
+2026-12-10  INIT-STU015-INST3-developmentFee charge: Development (Insta..     3900.00        0.00
+2026-12-10  INIT-STU015-INST3-examFee charge: Exam (Instalment 3)       720.00        0.00
+2026-12-10  INIT-STU015-INST3-labFee charge: Lab (Instalment 3)        450.00        0.00
+2026-12-10  INIT-STU015-INST3-tuitionFee charge: Tuition (Instalmen..     9720.00        0.00
+2027-01-19  PMT315-TXN-1      Payment for Add-on Hostel_Depo..        0.00     5000.00
+----------------------------------------------------------------------------------------
+TOTALS                                                            52700.00    65500.00
+Current Closing Balance : Rs    -12800.00
+========================================================================================

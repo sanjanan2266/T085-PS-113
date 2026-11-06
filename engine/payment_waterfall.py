@@ -238,10 +238,7 @@ class PaymentWaterfallProcessor:
             return []
 
         credit_avail = student.advance_credit
-        used_credit = Decimal("0.00")
-        transactions: List[Transaction] = []
 
-        # Use apply_payment mechanics with payment_mode=BANK_TRANSFER/ADJUSTMENT
         dummy_record, txns = cls.apply_payment(
             student=student,
             schedule=schedule,
@@ -252,9 +249,9 @@ class PaymentWaterfallProcessor:
             reference="ADVANCE_CREDIT_SETTLEMENT",
         )
 
-        # The advance credit was already in student.advance_credit, so adjust correctly
-        used = credit_avail - dummy_record.advance_credit_generated
-        student.advance_credit -= used
+        # Keep only the unused portion of the original advance credit.
+        student.advance_credit = dummy_record.advance_credit_generated
+
         return txns
 
     @classmethod

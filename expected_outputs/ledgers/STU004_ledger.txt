@@ -1,0 +1,49 @@
+========================================================================================
+                           STUDENT ACCOUNT STATEMENT / LEDGER                           
+Student: Rohan Gupta (STU004) | Grade: 4-B
+Campus: CAMPUS-1 | Hall Ticket: CLEARED | TC Status: NOT_REQUESTED
+========================================================================================
+Date        Txn ID            Description                       Debit (Rs) Credit (Rs)
+----------------------------------------------------------------------------------------
+2026-04-10  INIT-STU004-INST1-activityFee charge: Activity (Instalme..     1440.00        0.00
+2026-04-10  INIT-STU004-INST1-developmentFee charge: Development (Insta..     5400.00        0.00
+2026-04-10  INIT-STU004-INST1-examFee charge: Exam (Instalment 1)      1040.00        0.00
+2026-04-10  INIT-STU004-INST1-labFee charge: Lab (Instalment 1)        600.00        0.00
+2026-04-10  INIT-STU004-INST1-tuitionFee charge: Tuition (Instalmen..    15600.00        0.00
+2026-04-12  PMT004-TXN-1      Payment for Tuition (Instalmen..        0.00    15600.00
+2026-04-12  PMT004-TXN-2      Payment for Development (Insta..        0.00     3400.00
+2026-05-09  PMT064-TXN-1      Payment for Late Fee (Instalme..        0.00     1450.00
+2026-05-09  PMT064-TXN-2      Payment for Development (Insta..        0.00     2000.00
+2026-05-09  PMT064-TXN-3      Payment for Lab (Instalment 1)          0.00      600.00
+2026-05-09  PMT064-TXN-4      Payment for Activity (Instalme..        0.00     1440.00
+2026-05-09  PMT064-TXN-5      Payment for Exam (Instalment 1)         0.00     1040.00
+2026-05-09  PMT064-TXN-6      Payment for Add-on Transport (..        0.00     1470.00
+2026-08-10  INIT-STU004-INST2-activityFee charge: Activity (Instalme..     1080.00        0.00
+2026-08-10  INIT-STU004-INST2-developmentFee charge: Development (Insta..     4050.00        0.00
+2026-08-10  INIT-STU004-INST2-examFee charge: Exam (Instalment 2)       780.00        0.00
+2026-08-10  INIT-STU004-INST2-labFee charge: Lab (Instalment 2)        450.00        0.00
+2026-08-10  INIT-STU004-INST2-tuitionFee charge: Tuition (Instalmen..    11700.00        0.00
+2026-08-12  PMT124-TXN-1      Payment for Late Fee (Instalme..        0.00       50.00
+2026-08-12  PMT124-TXN-2      Payment for Add-on Transport (..        0.00     8130.00
+2026-08-12  PMT124-TXN-3      Payment for Late Fee (Instalme..        0.00      100.00
+2026-08-12  PMT124-TXN-4      Payment for Tuition (Instalmen..        0.00     7720.00
+2026-10-09  PMT184-TXN-1      Payment for Late Fee (Instalme..        0.00     1400.00
+2026-10-09  PMT184-TXN-2      Payment for Tuition (Instalmen..        0.00     3980.00
+2026-10-09  PMT184-TXN-3      Payment for Development (Insta..        0.00     2820.00
+2026-12-09  PMT244-TXN-1      Payment for Development (Insta..        0.00     1230.00
+2026-12-09  PMT244-TXN-2      Payment for Lab (Instalment 2)          0.00      450.00
+2026-12-09  PMT244-TXN-3      Payment for Activity (Instalme..        0.00     1080.00
+2026-12-09  PMT244-TXN-4      Payment for Exam (Instalment 2)         0.00      780.00
+2026-12-09  PMT244-TXN-5      Payment for Add-on Transport (..        0.00     7200.00
+2026-12-09  PMT244-TXN-6      Payment for Tuition (Instalmen..        0.00     3260.00
+2026-12-10  INIT-STU004-INST3-activityFee charge: Activity (Instalme..     1080.00        0.00
+2026-12-10  INIT-STU004-INST3-developmentFee charge: Development (Insta..     4050.00        0.00
+2026-12-10  INIT-STU004-INST3-examFee charge: Exam (Instalment 3)       780.00        0.00
+2026-12-10  INIT-STU004-INST3-labFee charge: Lab (Instalment 3)        450.00        0.00
+2026-12-10  INIT-STU004-INST3-tuitionFee charge: Tuition (Instalmen..    11700.00        0.00
+2027-01-08  PMT304-TXN-1      Payment for Late Fee (Instalme..        0.00     1450.00
+2027-01-08  PMT304-TXN-2      Payment for Tuition (Instalmen..        0.00     4050.00
+----------------------------------------------------------------------------------------
+TOTALS                                                            60200.00    70700.00
+Current Closing Balance : Rs    -10500.00
+========================================================================================
