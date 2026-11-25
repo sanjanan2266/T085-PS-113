@@ -1,12 +1,11 @@
 # PS-113 · School Fee Management Engine
-
 **K-12 School Administration Fee Computation, Instalments, Concessions, Late Fees, and Reconciliations**  
-*Week 2 – Core Flows Implementation*
+*Week 4 – Full Rules Implementation and Web Prototype*
 
 ---
 
 ## 🌟 Overview
-PS-113 is a complete, command-file driven School Fee Management Engine built in Python 3.10+ using only standard library modules (zero external dependencies). It implements the complete financial lifecycle of a K-12 school:
+PS-113 is a School Fee Management Engine built in Python 3.10+ with a command-line interface and a Flask-based web prototype. It manages student fee calculations, concessions, instalments, payments, reports, and persistence of application data. It implements the complete financial lifecycle of a K-12 school:
 - Grade-wise fee heads (`tuition`, `development`, `lab`, `activity`, `exam`, `admission`)
 - Concessions with precedence rules (`STAFF_WARD`, `MERIT`, `EWS`, and sibling ranking with dynamic re-ranking)
 - Flexible instalment schedules (`ANNUAL` with 3% discount, `TERM` 40/30/30, `MONTHLY` 10 instalments with January rounding absorption)
@@ -23,10 +22,12 @@ PS-113 is a complete, command-file driven School Fee Management Engine built in 
 
 ```
 T085-PS-113/
-├── DESIGN.md                     # System design document with BR-01 to BR-12 registered
+├── DESIGN.md                     # System design document with glossary, diagrams, and BR-01 to BR-12 registered
+├── DECISION_LOG.md               # Complete architectural decision log (DEC-01 to DEC-13)
+├── VIVA_PREPARATION.md           # 15-min viva guide with live code change cheat sheet
 ├── README.md                     # Project overview, usage instructions, and test guide
 ├── requirements.txt              # Zero external dependencies required (standard library)
-├── run_tests.py                  # Test runner executing all 46 unit and integration tests
+├── run_tests.py                  # Test runner executing all 66 unit and integration tests
 ├── main.py                       # Main CLI entrypoint
 │
 ├── engine/                       # Core engine modules
@@ -54,9 +55,12 @@ T085-PS-113/
 │   └── commands.txt              # Master command file executing complete school workflow
 │
 ├── scripts/
-│   └── generate_sample_data.py   # Deterministic sample dataset generator
+│   ├── generate_sample_data.py   # Deterministic sample dataset generator
+│   └── setup_git_repo.py         # Git history setup script
 │
-└── tests/                        # 46 comprehensive unit & integration tests
+└── tests/                        # 64 comprehensive unit & integration tests
+    ├── test_all_br_rules.py      # Explicit tests for every single rule ID (test_BR_01_* to test_BR_12_*)
+    ├── test_edge_cases.py        # Dedicated tests for all 8 explicit edge cases
     ├── test_concessions.py       # BR-02, BR-03, BR-12: Stacking, 60% cap, staff ward + 3rd sibling
     ├── test_instalments.py       # BR-01: ANNUAL 3%, TERM 40/30/30, MONTHLY rounding residue
     ├── test_addons.py            # BR-04, BR-05: Transport 15th/16th cutoff, hostel deposit
@@ -66,8 +70,7 @@ T085-PS-113/
     ├── test_withdrawal.py        # BR-09: 30-day notice, TC zero dues, sibling re-ranking
     ├── test_bounce.py            # BR-10: Rs 500 charge, reversal, retroactive late fee past cap
     ├── test_fee_revision.py      # BR-11: <=10% future instalments, >10% BOARD_APPROVED check
-    ├── test_sample_dataset.py    # End-to-end integration test with full sample data
-    └── test_edge_cases.py        # Dedicated tests for all 8 explicit edge cases
+    └── test_sample_dataset.py    # End-to-end integration test with full sample data
 ```
 
 ---
@@ -82,8 +85,8 @@ python run_tests.py
 *Expected Output:*
 ```text
 ======================================================================
-TESTS RUN: 46
-SUCCESSES: 46
+TESTS RUN: 66
+SUCCESSES: 66
 FAILURES : 0
 ERRORS   : 0
 ======================================================================
@@ -165,12 +168,3 @@ In your viva examination, be prepared to walk through:
 - **Concession Stacking & Cap:** Category (highest) $\rightarrow$ Sibling rank (DOB) $\rightarrow$ Additive sum $\rightarrow$ Min(sum, 60%) $\rightarrow$ 3% Annual discount on post-concession tuition.
 - **Payment Application Waterfall:** Late fees first $\rightarrow$ Oldest instalment tuition $\rightarrow$ Other heads (`dev`, `lab`, `act`, `exam`, `adm`) $\rightarrow$ Add-ons (`transport`, `hostel`) $\rightarrow$ Next instalment $\rightarrow$ Advance credit.
 - **Cheque Bounce & Defaulter Impact:** Reversal of allocations, Rs 500 penalty, retroactive recalculation of late fees, and overdue $> 60$ days flagging exam hall tickets as `WITHHELD`.
-
-
----
-
-## Week 3 – Full Business Rules & Testing
-
-Week 3 implementation, business rule validation, edge-case tests, and viva preparation.
-
-[View Week 3 Submission](https://github.com/sanjanan2266/T085-PS-113/tree/week3-submission)
