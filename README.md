@@ -168,3 +168,5 @@ In your viva examination, be prepared to walk through:
 - **Concession Stacking & Cap:** Category (highest) $\rightarrow$ Sibling rank (DOB) $\rightarrow$ Additive sum $\rightarrow$ Min(sum, 60%) $\rightarrow$ 3% Annual discount on post-concession tuition.
 - **Payment Application Waterfall:** Late fees first $\rightarrow$ Oldest instalment tuition $\rightarrow$ Other heads (`dev`, `lab`, `act`, `exam`, `adm`) $\rightarrow$ Add-ons (`transport`, `hostel`) $\rightarrow$ Next instalment $\rightarrow$ Advance credit.
 - **Cheque Bounce & Defaulter Impact:** Reversal of allocations, Rs 500 penalty, retroactive recalculation of late fees, and overdue $> 60$ days flagging exam hall tickets as `WITHHELD`.
+
+https://drive.google.com/file/d/1_TKpX01H6WUvJoBBM-2UqpxYXq70WFLr/view?usp=drive_link
